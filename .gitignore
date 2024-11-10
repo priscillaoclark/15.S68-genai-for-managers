@@ -1,0 +1,4 @@
+.DS_Store
+genai_venv/
+.genai_venv
+.env
