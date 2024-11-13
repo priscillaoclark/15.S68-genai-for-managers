@@ -8748,7 +8748,11 @@ Matthew Hughes|290|5|3|3|Though a viable method, further application is needed f
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <blockquote>
-<p><strong>Claude prompt:</strong></p>
+<p><strong>Claude prompt:</strong> Use the attached CSV files to conduct the following data analysis. Include a few visualizations.</p>
+<p>"Use an LLM to generate 100 agents and have them answer the 4 quantitative questions (use an LLM for this as well). Pick up to 2 of your &gt;persona attributes (e.g. Age and Gender) and provide an analysis that shows statistical significance (or lack thereof) in differences &gt;answering each of your 4 questions.
+Hint 1: We encourage everyone to attempt this, and rather than asking the staff we strongly recommend you first provide the full context &gt;to Claude or GPT-4o and have it explain how to do this efficiently. Because both of these LLMs have the ability to generate data, &gt;conduct analysis, and create graphs you should have all the tools you need.
+Hint 2: Here’s an example output: “Among our 100 agents surveyed, the 45 men had an ideal price point of $20 while the 55 women averaged &gt;an ideal price point of $18. Below we’ve included the overlaid histogram distributions and the analysis provided shows that this $2
+difference is significant at the 0.05 level...</p>
 <p><strong>Data provided:</strong> CSV files for new_personas and new_survey.</p>
 </blockquote>
 </div>
@@ -8761,7 +8765,10 @@ Matthew Hughes|290|5|3|3|Though a viable method, further application is needed f
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Script-from-Claude">Script from Claude<a class="anchor-link" href="#Script-from-Claude">¶</a></h3>
+<ul>
+<li>The script provided from Claude had extensive bugs which needed to be fixed.</li>
+<li>The next cells remedy the bugs and strip out code from the functions which Claude originally provided.</li>
+</ul>
 </div>
 </div>
 </div>
@@ -8772,9 +8779,7 @@ Matthew Hughes|290|5|3|3|Though a viable method, further application is needed f
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The script provided from Claude had bugs which needed to be fixed. See the published artifact for the original script.</p>
-<p><strong>Published Artifact:</strong></p>
-<p>The next cells remedy the bugs and strip out code from the functions.</p>
+<h3 id="Fixed-analysis">Fixed analysis<a class="anchor-link" href="#Fixed-analysis">¶</a></h3>
 </div>
 </div>
 </div>
