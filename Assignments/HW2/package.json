@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "@types/recharts": "^1.8.29"
+  }
+}
